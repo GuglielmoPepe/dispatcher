@@ -1,21 +1,30 @@
 {
-  "name": "guglielmopepe/dispatcher",
-  "description": "Dispatcher provides a flexible dispatch component.",
-  "keywords": ["dispatcher", "routing"],
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Guglielmo Pepe",
-      "homepage": "https://www.guglielmopepe.com",
-      "role": "Developer"
+    "authors": [
+        {
+            "homepage": "https://www.guglielmopepe.com",
+            "name": "Guglielmo Pepe",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dispatcher\\": "src/"
+        }
+    },
+    "config": {
+        "process-timeout": 0,
+        "sort-packages": true
+    },
+    "description": "Dispatcher provides a flexible dispatch component.",
+    "name": "guglielmopepe/dispatcher",
+    "homepage": "https://github.com/GuglielmoPepe/dispatcher",
+    "keywords": ["dispatcher", "routing"],
+    "license": "MIT",
+    "require": {
+        "php": "^7.2.0 || ^8.0.0"
+    },
+    "support": {
+        "issues": "https://github.com/GuglielmoPepe/dispatcher/issues",
+        "source": "https://github.com/GuglielmoPepe/dispatcher"
     }
-  ],
-  "autoload": {
-    "psr-4": {
-      "Dispatcher\\": "src/"
-    }
-  },
-  "require": {
-    "php": "^7.2.0 || ^8.0.0"
-  }
 }
