@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace Dispatcher\Classes\Handlers;
 
-class Default implements \Dispatcher\Interfaces\Handler 
+class NotFound implements \Dispatcher\Interfaces\Handler 
 {
     private $successor;
 
