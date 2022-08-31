@@ -29,7 +29,7 @@ class Convention implements \Dispatcher\Interfaces\Handler
 
     final public function handle(array $input) : \Dispatcher\Interfaces\Route
     {
-        $route = '\Dispatcher\Classes\Routes\\' . isset($input['route']) ? ucfirst($input['route']) : 'Home';
+        $route = '\Dispatcher\Classes\Routes\\' . (isset($input['route']) ? ucfirst($input['route']) : 'Home');
 
         if (class_exists($route)) 
         {
