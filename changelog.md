@@ -6,4 +6,7 @@ and this package adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## 1.0.0 - 2023-03-30
+
+First release
 
