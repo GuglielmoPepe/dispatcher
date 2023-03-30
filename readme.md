@@ -71,9 +71,9 @@ exit(0);
 ## Documentation
 Dispatcher include two default handler: Convention handler and NotFound handler. 
 
-The Convention handler match the value corrisponding 'route' key in handler's parameters or 'Home' route. 
+The Convention handler match the value corrisponding route key in handler's parameters or Home route. 
 
-The NotFound handler match the parameters with 'NotFound' route. 
+The NotFound handler match the parameters with NotFound route. 
 
 ## Support
 If you need information, please create a GitHub [issue](https://github.com/GuglielmoPepe/dispatcher/issues).
