@@ -28,9 +28,10 @@ Dispatcher allows you to create rule-based or convention-based handlers.
 
 Dispatcher allows you to create routes that map HTTP verbs.
 
-Dispatcher use the Chain of Responsability pattern to pass parameters down the chain until it finds the right handler. In case there is no handler that can handle the request an exception will be thrown.
+Dispatcher use the Chain of Responsability pattern to pass parameters down the chain until it finds the right handler. 
 
-If Dispatcher it doesn't find the handker in the parent theme it will throw an exception.
+In case there is no handler that can handle the request an exception will be thrown.
+
 
 ## Prerequisites
 
