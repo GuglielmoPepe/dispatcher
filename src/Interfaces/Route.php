@@ -6,7 +6,7 @@ namespace Dispatcher\Interfaces;
 
 interface Route
 {
-    public function connect() : void;
+    public function execute() : void;
     public function delete() : void;
     public function get() : void;
     public function head() : void;
