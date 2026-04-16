@@ -6,14 +6,6 @@ namespace Dispatcher\Interfaces;
 
 interface Route
 {
-    public function execute() : void;
-    public function delete() : void;
-    public function get() : void;
-    public function head() : void;
-    public function options() : void;
-    public function patch() : void;
-    public function post() : void;
-    public function put() : void;
-    public function trace() : void;
+
 }
 

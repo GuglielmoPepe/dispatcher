@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace Dispatcher\Classes\Routes;
 
-class WebSocket extends Http implements \Dispatcher\Interfaces\Route
+class WebSocket implements \Dispatcher\Interfaces\Routes\WebSocket
 {
     public function execute() : void
     {

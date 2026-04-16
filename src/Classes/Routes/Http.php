@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace Dispatcher\Classes\Routes;
 
-class Http implements \Dispatcher\Interfaces\Route
+class Http implements \Dispatcher\Interfaces\Routes\Http
 {
     public function connect() : void
     {

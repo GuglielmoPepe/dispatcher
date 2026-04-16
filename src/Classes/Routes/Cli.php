@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace Dispatcher\Classes\Routes;
 
-class Cli  extends Http implements \Dispatcher\Interfaces\Route
+class Cli implements \Dispatcher\Interfaces\Routes\Cli
 {
     public function execute() : void
     {
