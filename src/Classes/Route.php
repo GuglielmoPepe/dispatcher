@@ -2,10 +2,15 @@
 
 declare(strict_types = 1);
 
-namespace Dispatcher\Classes\Routes;
+namespace Dispatcher\Classes;
 
-class Http implements \Dispatcher\Interfaces\Routes\Http
+class Route implements \Dispatcher\Interfaces\Route
 {
+    public function cli() : void
+    {
+        throw new \Dispatcher\Classes\Exceptions\MethodCallNotAllowed();
+    }
+
     public function connect() : void
     {
         throw new \Dispatcher\Classes\Exceptions\MethodCallNotAllowed();

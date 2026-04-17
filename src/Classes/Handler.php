@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace Dispatcher\Classes\Handlers;
+namespace Dispatcher\Classes;
 
-class Convention implements \Dispatcher\Interfaces\Handler 
+class Handler implements \Dispatcher\Interfaces\Handler 
 {
     private $successor;
 
@@ -29,7 +29,7 @@ class Convention implements \Dispatcher\Interfaces\Handler
 
     final public function handle(array $input) : \Dispatcher\Interfaces\Route
     {
-        $route = '\Dispatcher\Classes\Routes\\' . (isset($input['route']) ? ucfirst($input['route']) : 'Home');
+        $route = '\Dispatcher\Classes\Route';
 
         if (class_exists($route)) 
         {
